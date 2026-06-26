@@ -5,6 +5,8 @@
 This is the public project home for WasmAgent — roadmap, media ledger, release ledger,
 and claim registry index.
 
+![WasmAgent product matrix](assets/product-matrix.webp)
+
 ## Repositories
 
 | Repository | Purpose |
@@ -12,6 +14,7 @@ and claim registry index.
 | [wasmagent-js](https://github.com/WasmAgent/wasmagent-js) | Core JS/TS runtime, MCP server, policy/evidence packages |
 | [bscode](https://github.com/WasmAgent/bscode) | Cloudflare Workers benchmark & demo workload |
 | [trace-pipeline](https://github.com/WasmAgent/trace-pipeline) | Trace ingestion, audit, claim/eval pipeline |
+| [open-agent-audit](https://github.com/WasmAgent/open-agent-audit) | Open evidence format and Cloudflare-native audit toolkit |
 | [wasmagent](https://github.com/WasmAgent/wasmagent) | This repo — project home, ledgers, roadmap |
 
 ## Key concepts
