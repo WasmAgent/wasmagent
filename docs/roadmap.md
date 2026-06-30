@@ -12,6 +12,7 @@
 - [x] OTel exporter + AEP span names (`@wasmagent/otel-exporter`)
 - [x] MCP Firewall / Gateway / Policy / Attestation
 - [x] AgentBOM, MCP Posture, and Trust Passport specifications — [agent-trust-infra](https://github.com/WasmAgent/agent-trust-infra) (PR #42: end-to-end chain visualization, runnable demo, README stitching)
+- [x] Public claim registry — migrated to [.github](https://github.com/WasmAgent/.github)
 
 ## In progress
 
@@ -23,7 +24,6 @@
 
 ## Planned
 
-- [ ] WasmAgent/wasmagent public claim registry
 - [ ] Trace-to-training public methodology doc
 - [ ] IFEval benchmark reproducibility package
 - [ ] Cloudflare Workers Agent demo (bscode)
