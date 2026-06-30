@@ -5,10 +5,13 @@ milestones live in the [release ledger](../RELEASE_LEDGER.md).
 
 ## In progress
 
-- [ ] `@wasmagent/aep` first npm publish
-- [ ] `@wasmagent/mcp-gateway` first npm publish
-- [ ] `@wasmagent/mcp-policy` first npm publish
-- [ ] `@wasmagent/mcp-attestation` first npm publish
+<!-- The `@wasmagent/aep`, `@wasmagent/mcp-gateway`, `@wasmagent/mcp-policy`,
+     and `@wasmagent/mcp-attestation` npm publishes have shipped — see the
+     release ledger. The MCP / Trust / Attestation specifications and validators
+     now live in the agent-trust-infra repo, which is the source of truth for
+     those domains. These items were removed from "In progress" to avoid
+     orphaned duplicates of already-shipped milestones. -->
+
 - [ ] Public trace-pipeline launch
 
 ## Planned
