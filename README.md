@@ -38,4 +38,5 @@ The public media, claims, and release ledgers live in the org-wide
 
 ## Roadmap
 
-See [docs/roadmap.md](docs/roadmap.md).
+See [docs/roadmap.md](docs/roadmap.md) for **In progress** and **Planned** work.
+Shipped milestones are recorded in the [release ledger](RELEASE_LEDGER.md).
