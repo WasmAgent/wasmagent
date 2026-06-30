@@ -15,6 +15,7 @@ and claim registry index.
 | [bscode](https://github.com/WasmAgent/bscode) | Cloudflare Workers benchmark & demo workload |
 | [trace-pipeline](https://github.com/WasmAgent/trace-pipeline) | Trace ingestion, audit, claim/eval pipeline |
 | [open-agent-audit](https://github.com/WasmAgent/open-agent-audit) | Open evidence format and Cloudflare-native audit toolkit |
+| [fresharena](https://github.com/WasmAgent/fresharena) | Sister project — agent evaluation arena |
 | [wasmagent](https://github.com/WasmAgent/wasmagent) | This repo — project home, ledgers, roadmap |
 
 ## Key concepts
