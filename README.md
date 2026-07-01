@@ -6,9 +6,9 @@ This is the public project home for WasmAgent — roadmap and project index.
 The public media, release, and claim ledgers have been consolidated in the
 org-wide [`.github` repository](https://github.com/WasmAgent/.github).
 
-![WasmAgent product matrix](https://raw.githubusercontent.com/WasmAgent/.github/main/assets/product-matrix.svg)
+![WasmAgent product matrix](https://raw.githubusercontent.com/WasmAgent/.github/main/profile/assets/product-matrix.svg)
 
-Source: canonical media hub in the org-wide [`.github` repository](https://github.com/WasmAgent/.github) (`assets/product-matrix.svg`).
+Source: canonical media hub in the org-wide [`.github` repository](https://github.com/WasmAgent/.github) (`profile/assets/product-matrix.svg`).
 
 ## Repositories
 
