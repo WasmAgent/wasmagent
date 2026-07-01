@@ -23,7 +23,7 @@ the MCP Firewall / Gateway / Policy / Attestation packages interoperate with.
 
 ## Status
 
-Per the WasmAgent [release ledger](../RELEASE_LEDGER.md), the AgentBOM, MCP
+Per the WasmAgent [release ledger](https://github.com/WasmAgent/.github/blob/main/releases/public-release-ledger.yml), the AgentBOM, MCP
 Posture, and Trust Passport specifications, validators, and trust artifacts are
 recorded as shipped via
 [agent-trust-infra PR #48](https://github.com/WasmAgent/agent-trust-infra/pull/48)
