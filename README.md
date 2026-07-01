@@ -12,7 +12,8 @@ org-wide [`.github` repository](https://github.com/WasmAgent/.github).
 
 | Repository | Purpose |
 |---|---|
-| [wasmagent-js](https://github.com/WasmAgent/wasmagent-js) | Core JS/TS runtime, MCP server, policy/evidence packages |
+| [wasmagent-js](https://github.com/WasmAgent/wasmagent-js) | Core JS/TS runtime and MCP server |
+| [agent-trust-infra](https://github.com/WasmAgent/agent-trust-infra) | MCP / Trust / Attestation specifications, validators, and trust artifacts (AgentBOM, MCP Posture, Trust Passport) |
 | [bscode](https://github.com/WasmAgent/bscode) | Cloudflare Workers benchmark & demo workload |
 | [trace-pipeline](https://github.com/WasmAgent/trace-pipeline) | Trace ingestion, audit, claim/eval pipeline |
 | [open-agent-audit](https://github.com/WasmAgent/open-agent-audit) | Open evidence format and Cloudflare-native audit toolkit |
