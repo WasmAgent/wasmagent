@@ -24,6 +24,8 @@ Source: canonical media hub in the org-wide [`.github` repository](https://githu
 | [.github](https://github.com/WasmAgent/.github) | Org-wide public ledgers (media, releases, claims) |
 | [wasmagent](https://github.com/WasmAgent/wasmagent) | This repo — project home, roadmap |
 
+This table lists public product repositories only; private and internal repositories (e.g. operations) are intentionally excluded and are not shown here.
+
 ## Key concepts
 
 - **Agent Execution Proof (AEP)** — every tool call produces a structured, hash-linked audit record
