@@ -16,6 +16,7 @@ org-wide [`.github` repository](https://github.com/WasmAgent/.github).
 | [bscode](https://github.com/WasmAgent/bscode) | Cloudflare Workers benchmark & demo workload |
 | [trace-pipeline](https://github.com/WasmAgent/trace-pipeline) | Trace ingestion, audit, claim/eval pipeline |
 | [open-agent-audit](https://github.com/WasmAgent/open-agent-audit) | Open evidence format and Cloudflare-native audit toolkit |
+| [agent-trust-infra](https://github.com/WasmAgent/agent-trust-infra) | AgentBOM, MCP Posture & Trust Passport specifications |
 | [fresharena](https://github.com/WasmAgent/fresharena) | Sister project — agent evaluation arena |
 | [.github](https://github.com/WasmAgent/.github) | Org-wide public ledgers (media, releases, claims) |
 | [wasmagent](https://github.com/WasmAgent/wasmagent) | This repo — project home, roadmap |
