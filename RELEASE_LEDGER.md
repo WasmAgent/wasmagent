@@ -21,5 +21,5 @@ graduation rather than individual version bumps.
 - [x] AEP / BudgetLedger / AEPEmitter (`@wasmagent/aep`)
 - [x] OTel exporter + AEP span names (`@wasmagent/otel-exporter`)
 - [x] MCP Firewall / Gateway / Policy / Attestation
-- [x] AgentBOM, MCP Posture, and Trust Passport specifications — [agent-trust-infra](https://github.com/WasmAgent/agent-trust-infra) (PR #42: end-to-end chain visualization, runnable demo, README stitching)
+- [x] AgentBOM, MCP Posture, and Trust Passport specifications — [agent-trust-infra](https://github.com/WasmAgent/agent-trust-infra) (PR #48: end-to-end chain visualization, runnable demo, README stitching)
 - [x] Public claim registry — migrated to [.github](https://github.com/WasmAgent/.github)
