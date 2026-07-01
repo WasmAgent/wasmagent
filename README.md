@@ -6,9 +6,9 @@ This is the public project home for WasmAgent — roadmap and project index.
 The public media, release, and claim ledgers have been consolidated in the
 org-wide [`.github` repository](https://github.com/WasmAgent/.github).
 
-![WasmAgent product matrix](https://raw.githubusercontent.com/WasmAgent/.github/main/media/product-matrix.webp)
+![WasmAgent product matrix](https://raw.githubusercontent.com/WasmAgent/.github/main/assets/product-matrix.svg)
 
-Source: canonical media hub in the org-wide [`.github` repository](https://github.com/WasmAgent/.github) (`media/product-matrix.webp`).
+Source: canonical media hub in the org-wide [`.github` repository](https://github.com/WasmAgent/.github) (`assets/product-matrix.svg`).
 
 ## Repositories
 
@@ -38,6 +38,12 @@ The public media, claims, and release ledgers live in the org-wide
 - **Media ledger** (`media/posts.yml`) — published articles and their claim bindings
 - **Claims registry** (`claims/public-claims.yml`) — verified public claims with evidence links
 - **Release ledger** (`releases/public-release-ledger.yml`) — release history
+
+## Shipped work
+
+Shipped milestones are tracked in the consolidated [release ledger](RELEASE_LEDGER.md).
+AgentBOM, MCP Posture, and Trust Passport have graduated off the roadmap and are
+recorded there as shipped/closed agent-trust-infra deliverables.
 
 ## Roadmap
 
