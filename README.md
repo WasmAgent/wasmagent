@@ -23,6 +23,12 @@ Source: canonical media hub in the org-wide [`.github` repository](https://githu
 | [.github](https://github.com/WasmAgent/.github) | Org-wide public ledgers (media, releases, claims) |
 | [wasmagent](https://github.com/WasmAgent/wasmagent) | This repo — project home, roadmap |
 
+Repository classification (public products vs. internal tooling) is available as
+machine-readable metadata in [`repos.yml`](repos.yml); see
+[docs/repository-manifest.md](docs/repository-manifest.md) for the schema. The
+project-table generator consumes this manifest to omit internal tools such as
+`claude-bot` and `wasmagent-ops`.
+
 ## Key concepts
 
 - **Agent Execution Proof (AEP)** — every tool call produces a structured, hash-linked audit record
