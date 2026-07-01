@@ -58,9 +58,36 @@ def load_repositories(manifest_path: Path = MANIFEST) -> list[dict]:
 
 
 def public_repositories(manifest_path: Path = MANIFEST) -> list[dict]:
-    """Return only repositories that should appear in the public table."""
+    """Return only repositories that should appear in the public table.
+
+    Repositories are first filtered by the ``public_product`` flag, then two
+    defence-in-depth guards keep internal tooling out of the public table even
+    when that flag is misconfigured:
+
+    1. Category-based: a repository whose ``category`` is ``internal-tool`` is
+       never surfaced. ``category`` is the org-wide metadata that distinguishes
+       internal tools from public products, so a contradictory
+       ``public_product: true`` on an internal-tool repo is treated as a hard
+       error rather than silently rendered as a public product row.
+    2. Name-based: ``FORBIDDEN_PUBLIC`` hard-codes known-sensitive internal
+       repos that must never appear regardless of any other field.
+    """
     repos = load_repositories(manifest_path)
     surfaced = [r for r in repos if r.get("public_product") is True]
+
+    # Guard 1 (category-based): internal tooling must never be surfaced as a
+    # public product, even if public_product was set to true by mistake. This
+    # is self-maintaining -- new internal tools are excluded by their category
+    # without needing to be added to FORBIDDEN_PUBLIC.
+    for repo in surfaced:
+        if repo.get("category") == "internal-tool":
+            raise ValueError(
+                f"{repo.get('name')!r} has category 'internal-tool' but is "
+                f"flagged public_product: true in {manifest_path.name}; "
+                f"internal tooling must set public_product: false"
+            )
+
+    # Guard 2 (name-based defence-in-depth) for known-sensitive repos.
     names = {r["name"] for r in surfaced}
     for forbidden in FORBIDDEN_PUBLIC:
         if forbidden in names:
