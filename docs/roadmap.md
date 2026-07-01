@@ -14,11 +14,8 @@ milestones are recorded in the org-wide
      see the release ledger. These items were removed from "In progress" to
      avoid orphaned duplicates of already-shipped milestones. -->
 
-- [ ] Public trace-pipeline launch
-
 ## Planned
 
 - [ ] Trace-to-training public methodology doc
 - [ ] IFEval benchmark reproducibility package
-- [ ] Cloudflare Workers Agent demo (bscode)
 - [ ] Compliance Engine stable release
