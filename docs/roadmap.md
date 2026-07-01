@@ -7,12 +7,12 @@ milestones are recorded in the org-wide
 
 ## In progress
 
-<!-- The `@wasmagent/aep`, `@wasmagent/mcp-gateway`, `@wasmagent/mcp-policy`,
-     and `@wasmagent/mcp-attestation` npm publishes have shipped — see the
-     release ledger. The MCP / Trust / Attestation specifications and validators
-     now live in the agent-trust-infra repo, which is the source of truth for
-     those domains. These items were removed from "In progress" to avoid
-     orphaned duplicates of already-shipped milestones. -->
+<!-- The MCP / Trust / Attestation specifications and validators are owned by
+     the WasmAgent/agent-trust-infra repository
+     (https://github.com/WasmAgent/agent-trust-infra), which is the source of
+     truth for those domains; the corresponding npm publishes already shipped —
+     see the release ledger. These items were removed from "In progress" to
+     avoid orphaned duplicates of already-shipped milestones. -->
 
 - [ ] Public trace-pipeline launch
 
