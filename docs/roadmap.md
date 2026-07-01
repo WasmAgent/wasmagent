@@ -13,13 +13,6 @@ milestones are recorded in the org-wide
 
 ## In progress
 
-<!-- The MCP / Trust / Attestation specifications and validators are owned by
-     the WasmAgent/agent-trust-infra repository
-     (https://github.com/WasmAgent/agent-trust-infra), which is the source of
-     truth for those domains; the corresponding npm publishes already shipped —
-     see the release ledger. These items were removed from "In progress" to
-     avoid orphaned duplicates of already-shipped milestones. -->
-
 ## Planned
 
 - [ ] Trace-to-training public methodology doc
