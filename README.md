@@ -19,7 +19,6 @@ Source: canonical media hub in the org-wide [`.github` repository](https://githu
 | [bscode](https://github.com/WasmAgent/bscode) | Cloudflare Workers benchmark & demo workload |
 | [trace-pipeline](https://github.com/WasmAgent/trace-pipeline) | Trace ingestion, audit, claim/eval pipeline |
 | [open-agent-audit](https://github.com/WasmAgent/open-agent-audit) | Open evidence format and Cloudflare-native audit toolkit |
-| [agent-trust-infra](https://github.com/WasmAgent/agent-trust-infra) | AgentBOM, MCP Posture & Trust Passport specifications |
 | [fresharena](https://github.com/WasmAgent/fresharena) | Sister project — agent evaluation arena |
 | [.github](https://github.com/WasmAgent/.github) | Org-wide public ledgers (media, releases, claims) |
 | [wasmagent](https://github.com/WasmAgent/wasmagent) | This repo — project home, roadmap |
@@ -44,7 +43,9 @@ The public media, claims, and release ledgers live in the org-wide
 
 Shipped milestones are tracked in the consolidated [release ledger](RELEASE_LEDGER.md).
 AgentBOM, MCP Posture, and Trust Passport have graduated off the roadmap and are
-recorded there as shipped/closed agent-trust-infra deliverables.
+recorded there as shipped/closed agent-trust-infra deliverables. For the
+code-level API/SDK interfaces, see the
+[agent-trust-infra API/SDK reference](docs/agent-trust-infra-specs.md).
 
 ## Roadmap
 
