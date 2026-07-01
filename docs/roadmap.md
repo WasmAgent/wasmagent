@@ -5,6 +5,11 @@ milestones are recorded in the org-wide
 [release ledger](https://github.com/WasmAgent/.github) maintained in `.github`
 (`releases/public-release-ledger.yml`).
 
+## Complete
+
+- [x] Public trace-pipeline launch — shipped; see the release ledger.
+- [x] Cloudflare Workers Agent demo (bscode) — shipped; see the release ledger.
+
 ## In progress
 
 <!-- The MCP / Trust / Attestation specifications and validators are owned by
