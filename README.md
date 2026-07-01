@@ -52,7 +52,7 @@ The public media, claims, and release ledgers live in the org-wide
 
 ## Shipped work
 
-Shipped milestones are tracked in the consolidated [release ledger](RELEASE_LEDGER.md).
+Shipped milestones are tracked in the consolidated [release ledger](https://github.com/WasmAgent/.github/blob/main/releases/public-release-ledger.yml).
 AgentBOM, MCP Posture, and Trust Passport have graduated off the roadmap and are
 recorded there as shipped/closed agent-trust-infra deliverables. For the
 code-level API/SDK interfaces, see the
@@ -61,4 +61,4 @@ code-level API/SDK interfaces, see the
 ## Roadmap
 
 See [docs/roadmap.md](docs/roadmap.md) for **In progress** and **Planned** work.
-Shipped milestones are recorded in the [release ledger](RELEASE_LEDGER.md).
+Shipped milestones are recorded in the [release ledger](https://github.com/WasmAgent/.github/blob/main/releases/public-release-ledger.yml).

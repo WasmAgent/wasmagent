@@ -2,8 +2,8 @@
 
 This roadmap tracks work that is **In progress** or **Planned**. Shipped
 milestones are recorded in the org-wide
-[release ledger](https://github.com/WasmAgent/.github) maintained in `.github`
-(`releases/public-release-ledger.yml`).
+[release ledger](https://github.com/WasmAgent/.github/blob/main/releases/public-release-ledger.yml)
+maintained in `.github`.
 
 ## Complete
 
