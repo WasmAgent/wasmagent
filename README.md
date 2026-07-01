@@ -19,7 +19,6 @@ org-wide [`.github` repository](https://github.com/WasmAgent/.github).
 | [agent-trust-infra](https://github.com/WasmAgent/agent-trust-infra) | AgentBOM, MCP Posture & Trust Passport specifications |
 | [fresharena](https://github.com/WasmAgent/fresharena) | Sister project — agent evaluation arena |
 | [.github](https://github.com/WasmAgent/.github) | Org-wide public ledgers (media, releases, claims) |
-| [wasmagent-ops](https://github.com/WasmAgent/wasmagent-ops) | Private operations hub |
 | [wasmagent](https://github.com/WasmAgent/wasmagent) | This repo — project home, roadmap |
 
 ## Key concepts
