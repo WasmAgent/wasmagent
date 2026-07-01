@@ -3,7 +3,8 @@
 WasmAgent ships a machine-readable manifest that classifies every repository in
 the organization as a **public product** or **internal tool**. It is the
 canonical metadata source consumed by the project-table generator
-([wasmagent#48](https://github.com/WasmAgent/wasmagent/issues/48)) and other org
+([`scripts/generate_project_table.py`](../scripts/generate_project_table.py),
+[wasmagent#48](https://github.com/WasmAgent/wasmagent/issues/48)) and other org
 tooling to decide which repositories to surface publicly.
 
 - Manifest: [`repos.yml`](../repos.yml)

@@ -2,8 +2,9 @@
 #
 # Machine-readable classification of repositories in the WasmAgent organization.
 # This is the canonical metadata source for distinguishing public products from
-# internal tooling. The project-table generator (wasmagent#48) and other org
-# tooling consume this manifest to decide which repositories to surface.
+# internal tooling. The project-table generator
+# (scripts/generate_project_table.py, wasmagent#48) and other org tooling
+# consume this manifest to decide which repositories to surface.
 #
 # Schema (version 1):
 #   schema_version   -> integer; manifest schema version (currently 1)
