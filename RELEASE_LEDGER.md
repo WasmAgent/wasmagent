@@ -23,3 +23,5 @@ graduation rather than individual version bumps.
 - [x] MCP Firewall / Gateway / Policy / Attestation
 - [x] AgentBOM, MCP Posture, and Trust Passport specifications — [agent-trust-infra](https://github.com/WasmAgent/agent-trust-infra) (PR #48: end-to-end chain visualization, runnable demo, README stitching)
 - [x] Public claim registry — migrated to [.github](https://github.com/WasmAgent/.github)
+- [x] Public trace-pipeline launch — [trace-pipeline](https://github.com/WasmAgent/trace-pipeline) (public ingestion/audit/claim pipeline)
+- [x] Cloudflare Workers Agent demo (bscode) — [bscode](https://github.com/WasmAgent/bscode) (public Cloudflare Workers benchmark & demo workload)
