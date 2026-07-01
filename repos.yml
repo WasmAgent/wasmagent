@@ -1,0 +1,91 @@
+# WasmAgent repository manifest
+#
+# Machine-readable classification of repositories in the WasmAgent organization.
+# This is the canonical metadata source for distinguishing public products from
+# internal tooling. The project-table generator (wasmagent#48) and other org
+# tooling consume this manifest to decide which repositories to surface.
+#
+# Schema (version 1):
+#   schema_version   -> integer; manifest schema version (currently 1)
+#   repositories[]   -> list of repository entries
+#     name            -> string; repository name without the owner prefix
+#     url             -> string; canonical GitHub URL
+#     category        -> enum; one of:
+#                          public-product  - a shipped product or library
+#                          infrastructure  - org-wide infrastructure (e.g. ledgers)
+#                          project-home    - the org project home / index repo
+#                          internal-tool   - internal operations/automation tooling
+#     public_product  -> boolean; true when the repository should be surfaced as
+#                        a public product / table row; false for internal tooling
+#     purpose         -> string; short human-readable description
+#
+# Filtering rule for the public project table:
+#   include repositories where `public_product == true`.
+
+schema_version: 1
+
+repositories:
+  # --- Public products ------------------------------------------------------
+  - name: wasmagent-js
+    url: https://github.com/WasmAgent/wasmagent-js
+    category: public-product
+    public_product: true
+    purpose: Core JS/TS runtime and MCP server
+
+  - name: agent-trust-infra
+    url: https://github.com/WasmAgent/agent-trust-infra
+    category: public-product
+    public_product: true
+    purpose: >-
+      MCP / Trust / Attestation specifications, validators, and trust artifacts
+      (AgentBOM, MCP Posture, Trust Passport)
+
+  - name: bscode
+    url: https://github.com/WasmAgent/bscode
+    category: public-product
+    public_product: true
+    purpose: Cloudflare Workers benchmark & demo workload
+
+  - name: trace-pipeline
+    url: https://github.com/WasmAgent/trace-pipeline
+    category: public-product
+    public_product: true
+    purpose: Trace ingestion, audit, and claim/eval pipeline
+
+  - name: open-agent-audit
+    url: https://github.com/WasmAgent/open-agent-audit
+    category: public-product
+    public_product: true
+    purpose: Open evidence format and Cloudflare-native audit toolkit
+
+  - name: fresharena
+    url: https://github.com/WasmAgent/fresharena
+    category: public-product
+    public_product: true
+    purpose: Sister project — agent evaluation arena
+
+  # --- Public infrastructure / project home ---------------------------------
+  - name: .github
+    url: https://github.com/WasmAgent/.github
+    category: infrastructure
+    public_product: true
+    purpose: Org-wide public ledgers (media, releases, claims)
+
+  - name: wasmagent
+    url: https://github.com/WasmAgent/wasmagent
+    category: project-home
+    public_product: true
+    purpose: Project home, roadmap, and repository index (this repository)
+
+  # --- Internal tooling (hidden from the public product table) --------------
+  - name: claude-bot
+    url: https://github.com/WasmAgent/claude-bot
+    category: internal-tool
+    public_product: false
+    purpose: Automated GitHub issue/PR bot (internal operations)
+
+  - name: wasmagent-ops
+    url: https://github.com/WasmAgent/wasmagent-ops
+    category: internal-tool
+    public_product: false
+    purpose: Internal operations and automation tooling
